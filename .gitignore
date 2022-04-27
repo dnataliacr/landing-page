@@ -2,7 +2,7 @@
 node_modules
 /dist
 
-
+**app/node_modules
 # local env files
 .env.local
 .env.*.local
@@ -16,8 +16,10 @@ pnpm-debug.log*
 # Editor directories and files
 .idea
 .vscode
-*.suo
+*.suogit status
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+package-lock.json
