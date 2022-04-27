@@ -1,0 +1,78 @@
+
+.banner-title {
+    margin: 80px 130px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .banner-title h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+  .p-container {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+  
+  .p-container p {
+    padding-bottom: 1rem;
+  }
+  .view-more-btn {
+    border: 1px solid #ebf2f6;
+  }
+  .user-select {
+    cursor: default !important;
+  }
+  .go-back::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ff0066;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+    font-weight: bold;
+  }
+  .go-back:hover::after {
+    width: 100%;
+  }
+  
+  @media (max-width: 749px) {
+    .banner-title {
+      margin: 50px 100px;
+      width: 80%;
+    }
+  }
+  @media (max-width: 591px) {
+    .banner-title h1 {
+      font-size: 45px;
+      width: 90%;
+    }
+    .banner-title {
+      margin: 50px 50px;
+      width: 80%;
+    }
+  }
+  @media (max-width: 591px) {
+    .banner-title h1 {
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 452px) {
+    .banner-title {
+      margin: 50px 30px;
+    }
+    .banner-title h1 {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 390px) {
+    .banner-title {
+      margin: 50px 30px;
+    }
+    .banner-title h1 {
+      font-size: 28px;
+    }
+  }
+  

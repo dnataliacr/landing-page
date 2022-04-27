@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+    background-color: #212930;
+    width: 100%;
+    overflow-x: hidden;
+    color: #ebf2f6;
+  }
+  a {
+    text-decoration: none;
+    color: #ebf2f6;
+  }
+  ul {
+    list-style: none;
+  }
+  ::selection {
+    color: #ebf2f6;
+    background: #ff0066;
+  }
+  
