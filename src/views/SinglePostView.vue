@@ -29,7 +29,7 @@
       <div class="p-container">
         <p v-show="post.excerpt.rendered" v-html="post.excerpt.rendered"></p>
         <a :href="post.link" target="blank">
-          <el-button color="transparent" class="view-more-btn" style=""
+          <el-button color="transparent" class="view-more-btn"
             >View more</el-button
           >
         </a>

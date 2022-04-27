@@ -103,6 +103,8 @@ export default {
       );
     },
     filter() {
+      this.page = 1;
+      this.perPage = 20;
       this.currentFilter = this.value;
       this.fetchPost();
     },
