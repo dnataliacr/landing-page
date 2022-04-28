@@ -45,9 +45,9 @@
               <strong>{{ item.title.rendered }}</strong>
               <div class="blog-post-html" v-html="item.excerpt.rendered"></div>
               <router-link class="view-more" :to="`/post/${item.id}`">
-                <el-button color="#212930" class="el-button-styled" style=""
-                  >View more</el-button
-                ></router-link
+                <el-button color="transparent" class="el-button-styled"
+            >View more</el-button
+          ></router-link
               >
             </div>
           </div>
