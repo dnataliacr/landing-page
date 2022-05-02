@@ -55,6 +55,7 @@
       </section>
 
       <el-pagination
+        v-show="value === ''"
         v-model:currentPage="page"
         v-model:page-size="perPage"
         layout="prev, pager, next, sizes"

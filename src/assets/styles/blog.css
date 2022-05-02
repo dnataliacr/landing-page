@@ -136,13 +136,20 @@
   color: #ff0066 !important;
 }
 .el-button-styled {
+  width: 100% !important;
+}
+.el-button-styled,
+.view-more-btn {
   text-transform: uppercase !important;
   color: #ff0066 !important;
-  width: 100% !important;
-font-weight: bold;
+  font-weight: bold;
   border-radius: none !important;
 }
-.el-button-styled:hover {
+.el-button {
+  border-radius: none !important;
+}
+.el-button-styled:hover,
+.view-more-btn:hover {
   background-color: #ff0066 !important;
   color: #fff !important;
 }
